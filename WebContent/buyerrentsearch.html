@@ -1,0 +1,40 @@
+<html>
+<head><link rel="stylesheet" href="buyer.css"></head>
+<body>
+
+<div class="formPart">
+<form action="BuyerRent" id="usrform" method="get">
+  <div class="container">
+ <h1>Search For Rent....</h1>
+    <hr>
+       <label for="city"><b>City</b></label>
+<input type="text" placeholder="Enter City" name="city" required>
+<br>
+  <label for="location"><b>Location</b></label>
+<input type="text" placeholder="Enter Location" name="loc" required>
+<br>
+  <label for="nob"><b>No. of Bedroom</b></label>
+<input type="number" placeholder="Enter Number of Bedroom" name="nob" required>
+<br>
+  <label for="nobath"><b>No. of Bathroom</b></label>
+<input type="number" placeholder="Enter Number of Bathroom" name="nobath" required>
+<br>
+ <label for="rent"><b>Rent</b></label>
+<input type="number" placeholder="Rent" name="rent" required>
+<label for="payment"><b>Payment Mode</b></label><br>
+				<select name="type">
+				    <option value="Select" > </option>
+					<option value="cash">Cash</option>
+					<option value="UPI">UPI</option>
+					<option value="Net Banking">Net Banking</option>
+					<option value="cheque">Cheque</option>
+				</select><br> <br> <br>
+				
+				 <label for="deposit"><b>Deposit:</b></label>
+<input type="number" placeholder="Deposit" name="deposit" required>
+    <button type="submit" class="registerbtn">Search</button>
+</div>
+</form>
+</div>
+</body>
+</html>

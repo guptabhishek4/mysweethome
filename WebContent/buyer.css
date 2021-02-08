@@ -1,0 +1,87 @@
+
+body{
+background-color:#f5f5f5;
+}
+.TopPic{
+background-image:url("pic01.jpg");
+width:600px;
+height:460px;
+float:left;
+}
+
+
+
+input[type=text], input[type=password],input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus {
+  
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+.registerbtn {
+  background-color: #391313;
+  color: white;
+font-size:20px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.container {
+  padding: 16px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+
+
+.formPart
+{
+color:white;
+width:500px;
+
+margin-left:32%;
+ background-image:url("pic01.jpg");
+}
+
+
+p{
+color:black;
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+}
+select{
+ width: 80%;
+  padding: 15px;
+font-family: "Times New Roman", Times, serif;
+font-weight:bold;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+
+  background: #f1f1f1;
+}

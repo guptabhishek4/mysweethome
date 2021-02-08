@@ -1,0 +1,42 @@
+<html>
+<head><link rel="stylesheet" href="buyer.css"></head>
+<body>
+
+<div class="formPart">
+<form action="BuyerBuy" id="usrform" method="get">
+  <div class="container">
+ <h1>Search Portal</h1>
+    <hr>
+      <label for="price"><b>Price</b></label>
+<input type="number" placeholder="Max" name="pricemax" required>
+<input type="number" placeholder="Min" name="pricemin" required>
+<br>
+     <label for="squarefoot"><b>Square Foot</b></label>
+<input type="text" placeholder="Square Foot" name="sqfeet" required>
+<br>
+  <label for="city"><b>City</b></label>
+<input type="text" placeholder="Enter City" name="city" required>
+<br>
+  <label for="location"><b>Location</b></label>
+<input type="text" placeholder="Enter Location" name="location" required>
+<br>
+  <label for="nob"><b>No. of Bedroom</b></label>
+<input type="number" placeholder="Enter Number of Bedroom" name="bedroom" required>
+<br>
+  <label for="nobath"><b>No. of Bathroom</b></label>
+<input type="number" placeholder="Enter Number of Bathroom" name="bathroom" required>
+<br>
+<label for="Type"><b>Type</b></label><br>
+<select name="type">
+  <option value="Residential Land">Residential Land</option>
+  <option value="Commercial">Commercial</option>
+  <option value="Condominium">Condominium</option>
+  <option value="TownHouse">TownHouse</option>
+<option value="Multi Unit Dwelling">Multi Unit Dwelling</option>
+</select><br>
+    <button type="submit" class="registerbtn">Search</button>
+</div>
+</form>
+</div>
+</body>
+</html>
